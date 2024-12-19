@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiara's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        section{
+            padding: 15px;
+            margin: 0 auto;
+            max-width:1200px ;
+        }
+
+        h1{
+            font-size: 30px;
+        }
+
+        .projects{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom:200px;
+            padding: 5px;
+        }
+
+        .box{
+            background-color: rgb(255, 255, 255);
+            padding:20px;
+            border: 1px solid rgb(39, 39, 41);
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px rgba(39, 39, 41, 0.612);
+        }
+
+         .button{
+            background-color: rgb(39, 39, 41);
+            color: aliceblue;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        h3,p{
+            padding:5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Kiara Flores</div>
+            <ul class="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 style="color: rgb(90, 97, 99), 97, 99;">My Projects</h1>
+        <div class="projects">
+            <!--grid boxes containing projects-->
+            <div class="box"> 
+                <img src="images/resume.png" alt="resume" width="300px" height="200px">
+                <h3>CSS Resume Layout</h3>
+                <p>Using css to create a modern looking resume</p>
+                <a class= "button" href="Modern-Resume-Layout.html">View This Project</a>
+                <br>     
+            </div>
+            <!--Box2-->
+            <div class="box"> 
+                <img src="images/forms.PNG" alt="forms" width="300px" height="200px">
+                <h3>Forms</h3>
+                <p>Using HTML Forms, and css to create a create account page  </p>
+                <a class= "button" href="Create-Account.html">View This Project</a>
+                <br>     
+            </div>
+            <!--Box 3-->
+            <div class="box"> 
+                <img src="images/resume.png" alt="resume" width="300px" height="200px">
+                <h3>Placeholder</h3>
+                <p>Using css to create a modern looking resume</p>
+                <a class= "button" href="Modern-Resume-Layout.html">View This Project</a>
+                <br>     
+            </div>
+            <!--box 4-->
+            <div class="box"> 
+                <img src="images/resume.png" alt="resume" width="300px" height="200px">
+                <h3>Placeholder</h3>
+                <p>Using css to create a modern looking resume</p>
+                <a class= "button" href="Modern-Resume-Layout.html">View This Project</a>
+                <br>     
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Kiara Flores. All rights reserved</p>
+    </footer>
+
+</body>
+</html>

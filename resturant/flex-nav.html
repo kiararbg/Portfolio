@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Nav bar using flex</title>
+    <style>
+
+        .nav-flex{
+            display: flex;
+         list-style-type: none;
+         background-color: black;
+         justify-content:center;
+        }
+
+        .nav-flex li, a{
+            padding: 20px;
+            color: white;
+            text-decoration: none;
+            
+        }
+
+        li a{
+            color: red;
+        }
+
+        li a:hover{
+            color: yellow;   
+        }
+
+        li a:visited{
+            color: greenyellow;
+        }
+
+        li a:active{
+            color: brown;
+        }
+
+        .items{
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-flex">
+            <li class="items"><a href="#Home">Home</a></li>
+            <li class="items"><a href="#About">About</a></li>
+            <li class="items"><a href="#Projects">Projects</a></li>
+            <li class="items"><a href="#Resume">Resume</a></li> 
+            <li class="items"><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
